@@ -10,5 +10,7 @@ Usage:
 2. Then in the same directory you should be able to run parse\_log.sh by typing ./parse\_log.sh (make sure permissions are set correctly)
 3. The script should generate a folder called parsed\_log which will contain the original log and four text files. The text files are split up into the training iterations, training loss, testing iterations, and testing loss.
 4. The matlab script reads from the parsed\_log folder whose path you need to specify by setting the file\_path variable, and it generates a figure with training loss vs iterations in blue, and testing loss vs iterations in green.
+
+Note: each time you run the parse_log script it will delete the parsed_log folder and regenerate it (effectively overwriting the directory). 
  
 
